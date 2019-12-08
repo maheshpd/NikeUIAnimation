@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgapp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="147dp"
+        android:background="@drawable/btnstart" />
+
+    <LinearLayout
+        android:translationY="590dp"
+        android:id="@+id/nikelayout"
+        android:layout_width="match_parent"
+        android:layout_height="800dp"
+        android:background="#090927"
+        android:elevation="6dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/nikeheader"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="#3C3DFF"
+            android:orientation="horizontal"
+            android:paddingLeft="24dp"
+            android:paddingTop="11dp"
+            android:paddingRight="24dp"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The Art of Boxing"
+                    android:textColor="#FFF"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Episode 1"
+                    android:textColor="#9293FF"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btncls"
+                    android:layout_width="73dp"
+                    android:layout_height="28dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/bgcls"
+                    android:text="Close"
+                    android:textColor="#FFF"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="24dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1900dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="6dp"
+                    android:text="Partnering with brands can be a way to earn extra revenue. Explore how to find the right brand deal for your channel &amp; audience."
+                    android:textColor="#ABABE7"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:lineSpacingExtra="6dp"
+                    android:text="How long should videos be? How can you upload more, without sacrificing quality? Find out how in this Master class with Today we found Out!"
+                    android:textColor="#ABABE7"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="360dp"
+                    android:layout_height="240dp"
+                    android:layout_marginTop="28dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/picdet" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="28dp"
+                    android:lineSpacingExtra="6dp"
+                    android:text="Partnering with brands can be a way to earn extra revenue. Explore how to find the right brand deal for your channel &amp; audience."
+                    android:textColor="#ABABE7"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:lineSpacingExtra="6dp"
+                    android:text="Your channel is eligible for a new customer URL ! Match your URL to your brand to help your fans find your more easily"
+                    android:textColor="#ABABE7"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</RelativeLayout>
